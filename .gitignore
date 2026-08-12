@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit local settings and secrets
+.streamlit/secrets.toml
+
+# Local vector database and generated artifacts
+chroma_data/
+
+# Local archives
+*.zip

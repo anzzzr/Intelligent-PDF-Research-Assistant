@@ -1,0 +1,22 @@
+# FastAPI will be used in the next project stage to expose HTTP endpoints.
+fastapi
+# This package lets FastAPI receive files sent through HTML form uploads.
+python-multipart
+# Uvicorn will run the FastAPI application locally in the next project stage.
+uvicorn[standard]
+# This package reads text page-by-page from uploaded PDF files.
+pypdf
+# This package supplies LangChain's token-aware text splitter.
+langchain-text-splitters
+# This package provides the tokenizer used by LangChain's TokenTextSplitter.
+tiktoken
+# This package creates semantic vector embeddings and uses PyTorch underneath.
+sentence-transformers
+# This package stores embeddings locally and searches for similar embeddings.
+chromadb
+# This package will call either the OpenAI or Groq chat API in a later stage.
+openai
+# This package creates the simple browser interface for uploading and asking questions.
+streamlit
+# This package lets the Streamlit interface call the local FastAPI server.
+requests
